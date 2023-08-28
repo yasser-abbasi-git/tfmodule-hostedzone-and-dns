@@ -1,7 +1,7 @@
 # Terraform Module for Creating Hosted Zone and DNS entries
 
 ## Introduction
-I should myself using the exact same code in my POC repositories for creating a hosted zone and DNS entries for the domains used my the POCs. Following the DRY (**D**on't **R**epeat **Y**ourself) principle, I moved the code to a separate module and updated my repositories to use ts module instead.
+I found myself using the exact same code in my POC repositories for creating a hosted zone and DNS entries for the domains used my the POCs. Following the DRY (**D**on't **R**epeat **Y**ourself) principle, I moved the code to a separate module and updated my repositories to use this module instead.
 
 ## Variables
 This Terraform module expects the following variables are set:
